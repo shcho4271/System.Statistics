@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>System</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>Seokhyeon Cho</Copyright>
+    <Authors>Seokhyeon Cho</Authors>
+    <Company>shcho4271</Company>
+    <RepositoryUrl>https://github.com/shcho4271/System.Statistics</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageTags>statistics</PackageTags>
+    <PackageProjectUrl>https://shcho4271.github.io/System.Statistics</PackageProjectUrl>
+    <PackageReleaseNotes>What's New:
+      Added some statistical functions:
+      * Average
+      * Count
+      * Geometric mean
+      * Harmonic mean
+      * Large
+      * Max
+      * Median
+      * Min
+      * Population standard deviation(PStdev)
+      * Population variance(PVariance)
+      * Rank
+      * Small
+      * Sample standard deviation(Stdev)
+      * Sum
+      * Sample variance(Variance)
+</PackageReleaseNotes>
+    <Description>Statistics library for C#/VB.NET</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
