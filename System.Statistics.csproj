@@ -33,6 +33,7 @@
       * Sample variance(Variance)
 </PackageReleaseNotes>
     <Description>Statistics library for C#/VB.NET</Description>
+    <PackageId>Statistics.NET</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
